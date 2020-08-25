@@ -17,7 +17,7 @@ public class MoviecatalogServiceApplication {
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
-	
+
 	@Bean
 	public WebClient.Builder getWebClientBuilder() {
 		return WebClient.builder();
